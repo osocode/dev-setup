@@ -20,6 +20,12 @@ A package manager for macOS (or Linux)
 
 * [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
 
+## Fonts
+
+`brew tap homebrew/cask-fonts`
+
+`brew install font-fira-code`
+
 ## Oh My Zsh
 
 https://github.com/ohmyzsh/ohmyzsh
