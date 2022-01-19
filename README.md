@@ -1,8 +1,5 @@
 # dev-setup
-development setup notes
-
-I'm still torn on zsh because most of the scripting I will do will be for bash but i guess that is what containers and tests are for. 
-I capitulate now that zshell is the shell Mac OS has chosen.
+Mac development setup notes
 
 ## Homebrew
 
@@ -11,6 +8,8 @@ A package manager for macOS (or Linux)
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ## Xcode
+
+If you don't do this, other install steps (such as powerlevel10k) will fail.
 
 `xcode-select --install`
 
