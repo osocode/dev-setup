@@ -51,7 +51,9 @@ if [ -x "$(command -v exa)" ]; then
     alias la="exa --long --all --group"
 fi
 ```
+## Resto
 
+https://github.com/abdfnx/resto
 
 ## install wget, curl, tree, httpie
 
