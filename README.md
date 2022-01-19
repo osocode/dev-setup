@@ -40,12 +40,8 @@ https://github.com/ohmyzsh/ohmyzsh
 
 https://github.com/powerline/fonts
 
-### PowerLevel10K
+### [PowerLevel10K](https://github.com/romkatv/powerlevel10k#installation)
 
-```
-brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
-```
 
 ## QuickLook Plugins
 
