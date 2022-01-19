@@ -41,12 +41,17 @@ https://github.com/powerline/fonts
 
 ### [PowerLevel10K](https://github.com/romkatv/powerlevel10k#installation)
 
+## [Exa](https://the.exa.website/) (modern replacement for `ls`)
 
-## QuickLook Plugins
+You can replace ls with an alias for exa:
 
-Quicklook plugins previews in Finder.
+```
+if [ -x "$(command -v exa)" ]; then
+    alias ls="exa"
+    alias la="exa --long --all --group"
+fi
+```
 
-`brew install qlcolorcode qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook quicklookase qlvideo`
 
 ## install wget, curl, tree, httpie
 
