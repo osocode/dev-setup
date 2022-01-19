@@ -55,7 +55,7 @@ Quicklook plugins previews in Finder.
 
 ## install wget, curl, tree, httpie
 
-`brew install wget curl tree jq`
+`brew install wget curl tree jq httpie`
 
 ## Visual Studio Code
 
